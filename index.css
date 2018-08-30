@@ -189,13 +189,14 @@ text{
 	}
 
 	.trocar-senha span p{
-		margin-left: -46%;
+		margin-left: -48%;
+		margin-top: 7%;
 	}	
 
 	.trocar-senha {
 		position: absolute;
 		margin-top: 13%;
-		margin-left: 44%;
+		margin-left: 39%;
 	}
 
 	.area-quadro span p {

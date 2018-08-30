@@ -2,10 +2,6 @@
 <head>
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="index.css">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -69,29 +65,3 @@
 	</div>
 </body>
 </html>
-
-
-<script>
-
-$(window).bind('orientationchange',function(e) {
-  fixOrientation();
-});
-
-$(window).bind('resize',function(e) {
-  fixOrientation();
-});
-
-function fixOrientation() {
-
-    setTimeout(function() {
-
-        var windowWidth = window.innerWidth;
-
-        $('div[data-role="page"]').width(windowWidth);
-        $('div[data-role="header"]').width(windowWidth);
-        $('div[data-role="content"]').width(windowWidth-30);
-        $('div[data-role="footer"]').width(windowWidth);
-
-    },500);
-}
-</script>

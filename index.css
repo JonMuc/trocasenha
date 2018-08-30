@@ -34,7 +34,7 @@ text{
 }
 
 .trocar-senha{
-	display: flex;
+	/* display: flex; */
     margin-top: 2%;
     /* flex-direction: column-reverse; */
     /* flex-wrap: inherit; */
@@ -50,7 +50,7 @@ text{
 	/* margin-top:7%; */
 	/* height: 20%; */
 	/* position: relative; */
-	display: flex;
+	/* display: flex; */
 	/* text-align: bottom; */
 }
 
@@ -210,7 +210,7 @@ text{
 	}
 
 	.msg-duvida span{
-		display: flex;
+		/* display: flex; */
 		font-size: 2em !important;
 	}
 

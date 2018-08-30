@@ -148,19 +148,24 @@ body{
 }
 
 .msg-duvida span{
-    margin-top: 2%;
+    /* margin-top: 2%; */
     /* flex-direction: column-reverse; */
     /* flex-wrap: inherit; */
     justify-content: center;
 }
 
+.msg-duvida{
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
 .msg-duvida span:first-of-type{
-	font-size: 1em;
+	font-size: 1.5em;
 	text-align: -webkit-right;
 }
 
-.msg-duvida span:second-of-type{
-	font-size: 1.1em;
+.msg-duvida span:nth-of-type(2n){
+	font-size: 1.5em;
 	text-align: -webkit-left;
 	display: -webkit-inline-box;
 }
@@ -181,6 +186,11 @@ body{
 	.trocar-senha span img{
 		margin-top: -3%;
 	}	
+
+	.msg-duvida span:nth-of-type(2n) {
+		display: flex;
+    	text-align: -webkit-center;
+	}
 
 	body{
 		border-bottom-style: none;

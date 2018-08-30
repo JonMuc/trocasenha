@@ -179,6 +179,11 @@ body{
 		text-align: -webkit-center;	
 	}
 
+
+	.msg-duvida{
+		margin-left: 0 !important;
+	}
+
 	.msg-duvida span {
 		text-align: -webkit-center;
 	}

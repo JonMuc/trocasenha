@@ -1,65 +1,68 @@
 ﻿<html>
 <head>
-<!-- <script src="./Scripts/jquery-1.10.2.js"></script> -->
-<!-- <script src="./Scripts/jquery-1.10.2.min.js"></script> -->
-<!-- <script src="./Scripts/jquery.validate.js"></script> -->
-<!-- <script src="./Scripts/jquery.validate.min.js"></script> -->
-<!-- <script src="./Scripts/jquery.validate.unobtrusive.js"></script> -->
-<!-- <script src="./Scripts/jquery.validate.unobtrusive.min.js"></script> -->
-<!-- <script src="./Scripts/modernizr-2.6.2.js"></script> -->
-<!-- <script src="./Scripts/respond.js"></script> -->
-<!-- <script src="./Scripts/respond.min.js"></script> -->
-<!-- <script src="./Scripts/bootstrap.js"></script> -->
-<!-- <script src="./Scripts/bootstrap.min.js"></script> -->
-<!-- <link rel="stylesheet" href="bootstrap.css"> -->
-<!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
-<!-- <link rel="stylesheet" href="Site.css"> -->
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div class="headerColumn">
-    <div class="col-md-24 displayHeader">
-        <div class="col-md-7 logo">
-            <img id="imgLogoTenda" src="logo_tenda.png" />
-        </div>
-        <div class="col-md-8 col-md-offset-1 boxTextHeader">
-            <img id="imgCad" src="icon_lock.png" />
-            <text class="textHeader">Portal de troca de senha</text>
-        </div>
-    </div>
-</div>
-
-<div class="col-md-24 boxContent">
-    <div class="styleBackgorund">
-        <img class="styleImgEmail" src="mail.png" />
-        <text class="textStyleBox">E-mail</text>
-        <img class="imagemStyle" src="globe.png" />
-        <text class="textStyleBoxRede">Rede</text>
-        <img class="imagemStyleTel" src="logo_tenda(1).png" />
-        <text class="textStyleBoxTel">SUAT</text>
-        <text class="textFirstBox">
-            Se você precisar trocar uma senha de Rede, E-mail ou SUAT, clique no botão para acessar o portal.
-        </text>
-        <button type="button" id="btnFirstBox"  onclick="window.location.href='https://g1.globo.com/'" class="btn"><text class="textBtnFirst">ACESSAR PORTAL</text></button>
-    </div>
-    <div class="btnSecondBox">
-        <img id="imgSAP" src="bitmap.png" />
-        <text id="textSecondBox">
-            Se você precisar trocar uma senha de usuário SAP, clique no botão para acessar o portal SAP.
-        </text>
-        <button type="button" onclick="window.location.href='https://www.uol.com.br/'"  id="styleBtnSecond" class="btn"><text class="textBtnFirst">ACESSAR PORTAL SAP</text></button>
-    </div>
-</div>
-
-<div class="divMsgTel">
-    <center>
-        <text id="textMsgTel">Ainda tem dúvidas? Fale com o Service Desk:</text>
-        <img id="imgTel" src="phone.png" />
-        <text id="textNumber">3111- 2555</text>
-    </center>
-</div>
-
+	<div class="container-fluid">
+		<div class="col-md-12 col-sm-12 header">
+			<div class="col-md-12 col-sm-12">
+				<div class="col-md-6 col-sm-12 logo">
+					<img src="logo_tenda.png" />
+				</div>
+				<div class="col-md-6 col-sm-12 col-md-offset-1 trocar-senha">
+					<span>
+						<img src="icon_lock.png" />
+						<p>Portal de troca de senha</p>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="col-lg-12 col-sm-12 background-quadros">
+		</div> -->
+		
+		<div class="col-lg-12 col-sm-12 col-md-12 background-quadros row">
+			<div class="shadow p col-sm-10 col-md-10 col-lg-3 offset-md-1 offset-sm-1 offset-lg-2 area-quadro">
+				<span class="col-lg-4 col-sm-4 col-md-4">
+					<img src="mail.png" />
+					<p>E-mail</p>
+				</span>
+				<span class="col-lg-4 col-sm-4 col-md-4">
+					<img src="globe.png" />
+					<p>Rede</p>
+				</span>
+				<span class="col-lg-4 col-sm-4 col-md-4">
+					<img src="logo_tenda(1).png" />
+					<p>SUAT</p>
+				</span>
+				<span class="col-lg-12 col-sm-12 align-middle">
+					Se você precisar trocar uma senha de Rede, E-mail ou SUAT, clique no botão para acessar o portal.
+				</span>
+				<span class="col-lg-12 col-sm-12 area-btn-portal">
+					<button type="button" onclick="window.location.href='https://g1.globo.com/'" class="btn"><text>ACESSAR PORTAL</text></button>
+				</span>
+			</div>
+			<div class="shadow p col-lg-3 col-sm-10 offset-lg-2 offset-sm-1 offset-md-1 col-md-10 area-segundo-quadro">
+				<span class="col-lg-10 col-sm-10 col-md-10 offset-lg-1 offset-sm-1">
+					<img src="bitmap.png" />
+				</span>
+				<span class="col-lg-12 col-sm-12 align-middle">
+					Se você precisar trocar uma senha de usuário SAP, clique no botão para acessar o portal SAP.
+				</span>
+				<span class="col-lg-12 col-sm-12 area-btn-portal">
+					<button type="button" onclick="window.location.href='https://www.uol.com.br/'" class="btn"><text>ACESSAR PORTAL SAP</text></button>
+				</span>
+			</div>
+		</div>
+		<div class="align-middle col-lg-12 col-sm-12 msg-duvida">
+			<span class="col-lg-6 col-sm-12 col-md-12 align-text-bottom">
+			Ainda tem dúvidas? Fale com o Service Desk:
+			</span>
+			<span class="col-lg-6 col-sm-12 col-md-12 align-baselin">
+				<img src="phone.png" />
+				3111 - 2555
+			</span>     
+		</div>
+	</div>
 </body>
 </html>

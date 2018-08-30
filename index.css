@@ -277,14 +277,14 @@ body{
 
 
 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 967px) and (orientation: landscape) {
 	html {
 	  transform: rotate(-90deg);
 	  transform-origin: left top;
-	  width: 100vh;
+	  width: 50vh;
 	  overflow-x: hidden;
 	  position: absolute;
-	  top: 100%;
+	  top: 50%;
 	  left: 0;
 	}
   }

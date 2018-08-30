@@ -10,6 +10,13 @@
 	
 }
 
+/* .background-quadros-color{
+	background-color: #f2f2f2;
+    padding: 0 0 17% 0;
+	margin-top: 3%;
+	position: absolute
+} */
+
 text{
 	color: white;
 	font-size: 1.3em;
@@ -88,7 +95,7 @@ text{
 	transform: translateY(19px);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
-	width: 16.5em;
+	width: 25vw;
 } 
 
 .area-quadro span{
@@ -117,9 +124,14 @@ text{
 	transform: translateY(59px);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
-	width: 16.5em;
+	width: 25vw;
 }
 
+body{
+	border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 7px;
+}
 
 .area-segundo-quadro span:nth-of-type(2n){
 	margin-top: 13%;
@@ -170,6 +182,10 @@ text{
 		margin-top: -3%;
 	}	
 
+	body{
+		border-bottom-style: none;
+	}
+
 	.logo img{
 		margin-left: 65%;
 		height: 6em;
@@ -178,8 +194,16 @@ text{
 		margin-top: 10%;
 	}
 
+	.area-quadro span button {
+		width: 60vw;
+	}
+
+	.area-segundo-quadro span button{
+		width: 60vw;
+	}
+
 	html{
-		border-bottom-style: solid;
+	border-bottom-style: solid;
     border-bottom-color: red;
     border-bottom-width: 7px;
 	}
@@ -206,8 +230,6 @@ text{
 	.area-segundo-quadro{
 		margin-top: 5%;
 	}
-
-
 
 	.area-quadro span:nth-of-type(4n){
 		font-size: 2em;

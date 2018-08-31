@@ -359,6 +359,9 @@ body{
 		height: 6em;
 	}
 
+	.msg-duvida span {
+		font-size: 1.5em !important;
+	}
 
 }
 

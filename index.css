@@ -363,6 +363,30 @@ body{
 		font-size: 1.5em !important;
 	}
 
+	.trocar-senha {
+		position: unset;
+		margin-top: 3%;
+		margin-left: 0;
+	}
+
+	.trocar-senha span {
+		margin-top: 0;
+		display: flex;
+	}
+
+	.trocar-senha span img {
+		margin-top: 0;
+	}
+
+	.trocar-senha span p {
+		margin-left: 3%;
+		margin-top: 0;
+	}
+
+	.background-quadros {
+		margin-top: -5%;
+	}
+
 }
 
 

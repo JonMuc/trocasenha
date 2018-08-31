@@ -311,7 +311,7 @@ body{
 	}
 } */
 
-@media only screen and (max-width: 1080px) and (orientation : landscape) {
+@media screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
 		max-width: 10.333333%;
 	}

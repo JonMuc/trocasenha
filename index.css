@@ -311,11 +311,15 @@ body{
 	}
 } */
 
-@media only screen and (max-width: 980px) and (orientation : landscape) {
+@media only screen and (max-width: 80px) and (orientation : landscape) {
 	.area-quadro{
 		max-width: 10.333333%;
 	}
 
+	.area-quadro{
+		display: none
+	}
+	
 	.logo{
 		display: none;
 	}

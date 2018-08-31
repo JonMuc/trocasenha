@@ -265,9 +265,9 @@ body{
 	}
 }
 
-@media screen and (min-width: 825px) and (max-width: 992px){
+@media screen and (min-width: 825px) and (max-width: 951px){
 	.area-segundo-quadro span button {
-		transform: translateY(57px) !important;
+		transform: translateY(57px);
 	}
 }
 

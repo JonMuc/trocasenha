@@ -36,15 +36,12 @@ text{
 }
 
 .logo img{
-	/* margin-top:5%; */
 	margin-left: 10%;
 }
 
 .trocar-senha{
 	display: flex;
     margin-top: 2%;
-    /* flex-direction: column-reverse; */
-    /* flex-wrap: inherit; */
     justify-content: center;
 	height: 100%;
 }
@@ -55,11 +52,7 @@ text{
 }
 
 .trocar-senha span{
-	/* margin-top:7%; */
-	/* height: 20%; */
-	/* position: relative; */
 	display: flex;
-	/* text-align: bottom; */
 }
 
 .trocar-senha span > *{
@@ -149,9 +142,6 @@ body{
 }
 
 .msg-duvida span{
-    /* margin-top: 2%; */
-    /* flex-direction: column-reverse; */
-    /* flex-wrap: inherit; */
     justify-content: center;
 }
 
@@ -263,7 +253,6 @@ body{
 	}
 
 	.msg-duvida span{
-		/* display: flex; */
 		font-size: 2em !important;
 	}
 
@@ -276,41 +265,18 @@ body{
 	}
 }
 
+@media screen and (min-width: 825px) and (max-width: 992px){
+	.area-segundo-quadro span button {
+		transform: translateY(57px) !important;
+	}
+}
+
 @media screen and (min-width: 992px) and (max-width: 1047px){
 	.area-segundo-quadro span button {
 		transform: translateY(88px);
 	}
 }
 
-@media screen and (max-width: 1063px) and (min-width: 1047px){
-	.area-segundo-quadro span button {
-		transform: translateY(125px);
-	}
-}
-
-@media screen and (max-width: 1085px) and (min-width: 1064px) {
-	.area-segundo-quadro span button {
-		transform: translateY(94px);
-	}
-}
-
-@media screen and (max-width: 1310px) and (min-width: 1257px) {
-	.area-segundo-quadro span button {
-		transform: translateY(94px);
-	}
-}
-
-@media screen and (max-width: 1822px) and (min-width: 1728px) {
-	.area-segundo-quadro span button {
-		transform: translateY(94px);
-	}
-}
-
-/* @media screen and (max-width: 2000px) and (min-width: 600px) and (-webkit-device-pixel-ratio: 2) {
-	.area-quadro{
-		display: none
-	}
-} */
 
 @media only screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
@@ -389,6 +355,40 @@ body{
 		margin-left: 0%;
 	}
 
+	.msg-duvida {
+		margin-top: 4%;
+	}
 }
+
+@media screen and (min-width: 992px) and (max-width: 1047px){
+	.area-segundo-quadro span button {
+		transform: translateY(88px);
+	}
+}
+
+@media screen and (max-width: 1063px) and (min-width: 1047px){
+	.area-segundo-quadro span button {
+		transform: translateY(125px);
+	}
+}
+
+@media screen and (max-width: 1085px) and (min-width: 1064px) {
+	.area-segundo-quadro span button {
+		transform: translateY(94px);
+	}
+}
+
+@media screen and (max-width: 1310px) and (min-width: 1257px) {
+	.area-segundo-quadro span button {
+		transform: translateY(94px);
+	}
+}
+
+@media screen and (max-width: 1822px) and (min-width: 1728px) {
+	.area-segundo-quadro span button {
+		transform: translateY(94px);
+	}
+}
+
 
 

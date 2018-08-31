@@ -275,6 +275,23 @@ body{
 	}
 }
 
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 1.33%;}
+    .col-2 {width: 1.66%;}
+    .col-3 {width: 1%;}
+    .col-4 {width: 1.33%;}
+    .col-5 {width: 1.66%;}
+    .col-6 {width: 1%;}
+    .col-7 {width: 1.33%;}
+    .col-8 {width: 1.66%;}
+    .col-9 {width: 1%;}
+    .col-10 {width: 1.33%;}
+    .col-11 {width: 1.66%;}
+    .col-12 {width: 1%;}
+}
+
 @media screen and (min-width: 992px) and (max-width: 1047px){
 	.area-segundo-quadro span button {
 		transform: translateY(88px);
@@ -302,5 +319,9 @@ body{
 @media screen and (max-width: 1822px) and (min-width: 1728px) {
 	.area-segundo-quadro span button {
 		transform: translateY(94px);
+	}
+
+	.area-quadro{
+		display: none
 	}
 }

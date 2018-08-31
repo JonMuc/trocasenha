@@ -322,7 +322,7 @@ body{
 	}
 }
 
-@media screen and (max-width: 2000px) and (min-width: 400px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width: 2000px) and (min-width: 600px) and (-webkit-device-pixel-ratio: 2) {
 	.area-quadro{
 		display: none
 	}

@@ -316,13 +316,13 @@ body{
 		max-width: 10.333333%;
 	}
 
-	.area-quadro{
+	/* .area-quadro{
 		display: none
-	}
-
-	/* .logo{
-		display: none;
 	} */
+
+	.logo{
+		display: none;
+	}
 }
 
 

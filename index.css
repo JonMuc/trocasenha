@@ -322,7 +322,7 @@ body{
 	}
 }
 
-@media screen and (max-width: 1920px) and (min-width: 1000px) {
+@media screen and (max-width: 1100px) and (min-width: 500px) {
 	.area-quadro{
 		display: none
 	}

@@ -320,7 +320,9 @@ body{
 	.area-segundo-quadro span button {
 		transform: translateY(94px);
 	}
+}
 
+@media screen and (max-width: 1920px) and (min-width: 1000px) {
 	.area-quadro{
 		display: none
 	}

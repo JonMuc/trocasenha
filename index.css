@@ -118,7 +118,7 @@ text{
 
 .area-segundo-quadro span button{
 	/* modificado */
-	transform: translateY(1.3em);
+	transform: translateY(4em);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
 	width: 25vw;
@@ -161,8 +161,11 @@ body{
 	font-size: 1.5em;
 	text-align: -webkit-left;
 	display: -webkit-inline-box;
+	font-size: 1.6em;
+	font-weight: bold;
+	opacity: 0.8;
+	color: #ed1c24;
 }
-
 
 @media screen and (max-width: 991px) and (orientation : landscape){
 
@@ -174,6 +177,10 @@ body{
 @media screen and (max-width: 991px){
 	.area-quadro span img{
 		height: 4em;
+	}
+
+	.area-segundo-quadro span button {
+		transform: translateY(1.4em);
 	}
 
 	.background-quadros-color{

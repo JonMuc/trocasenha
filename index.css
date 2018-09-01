@@ -334,7 +334,8 @@ body{
 	}
 
 	.area-segundo-quadro span button {
-		transform: translateY(96px) !important;
+		transform: translateY(96px);
+		/* important modificado */
 	}
 
 	.area-segundo-quadro span {

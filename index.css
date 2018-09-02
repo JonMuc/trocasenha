@@ -333,7 +333,7 @@ body{
 	}
 
 	.area-segundo-quadro span button {
-		transform: translateY(59px);
+		transform: translateY(94px);
 		/* important modificado */
 	}
 
@@ -466,7 +466,7 @@ and (orientation : landscape) {
 @media screen and (min-width: 920px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(95px);;
+		transform: translateY(3.3em);;
 	}
 }
 /*

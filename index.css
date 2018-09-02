@@ -450,14 +450,14 @@ and (orientation : landscape) {
 	}
 } */
 
-@media screen and (min-width: 900px) and (max-width: 991px) and (orientation : landscape){
+@media screen and (min-width: 920px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
 		transform: translateY(57px) !important;
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 899px) and (orientation : landscape){
+@media screen and (min-width: 600px) and (max-width: 919px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
 		transform: translateY(96px);

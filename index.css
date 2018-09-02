@@ -439,7 +439,7 @@ and (min-width : 375px)
 and (max-width : 812px) 
 and (orientation : landscape) { 
 	.area-segundo-quadro span button {
-		transform: translateY(85px) !important;
+		transform: translateY(53px) !important;
 	}
 }
 

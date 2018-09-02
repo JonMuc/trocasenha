@@ -7,7 +7,7 @@
 .container-fluid{
 	padding-right: 0;
     padding-left: 0;
-	
+
 }
 
 .background-quadros-color{
@@ -91,7 +91,7 @@ text{
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
 	width: 25vw;
-} 
+}
 
 .area-quadro span{
 	margin-top:7%;
@@ -107,7 +107,7 @@ text{
 
 .area-segundo-quadro{
 	border: groove;
-	border-radius: 2em;	
+	border-radius: 2em;
 	background-image: linear-gradient(#fcfcfc, #f8f8f8);
 }
 
@@ -188,7 +188,7 @@ body{
 	}
 
 	.msg-duvida span:first-of-type{
-		text-align: -webkit-center;	
+		text-align: -webkit-center;
 	}
 
 
@@ -203,7 +203,7 @@ body{
 
 	.trocar-senha span img{
 		margin-top: -3%;
-	}	
+	}
 
 	.msg-duvida span:nth-of-type(2n) {
 		display: flex;
@@ -243,7 +243,7 @@ body{
 	.trocar-senha span p{
 		margin-left: -48%;
 		margin-top: 7%;
-	}	
+	}
 
 	.trocar-senha {
 		position: absolute;
@@ -262,7 +262,7 @@ body{
 	.area-quadro span:nth-of-type(4n){
 		font-size: 2em;
 	}
-	
+
 	.area-segundo-quadro span img{
 		height: 5em;
 	}
@@ -293,7 +293,7 @@ body{
 
 @media screen and (min-width: 825px) and (max-width: 951px){
 	.area-segundo-quadro span button {
-		transform: translateY(57px) !important;
+		transform: translateY(57px);
 	}
 }
 
@@ -302,7 +302,7 @@ body{
 		transform: translateY(88px);
 	}
 }
-/* 
+/*
 @media screen and (min-width : 375px) and (max-width : 812px) and (orientation : landscape) {
 	.area-segundo-quadro span button {
 		transform: translateY(54px);
@@ -431,5 +431,9 @@ body{
 	}
 }
 
-
+@media screen and (min-width: 825px) and (max-width: 951px){
+	.area-segundo-quadro span button {
+		transform: translateY(57px);
+	}
+}
 

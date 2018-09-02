@@ -338,7 +338,7 @@ body{
 	}
 
 	.area-segundo-quadro span button {
-		transform: translateY(96px);
+		transform: translateY(59px);
 		/* important modificado */
 	}
 
@@ -429,12 +429,7 @@ body{
 	}
 }
 
-@media screen and (min-width: 820px) and (max-width: 951px) {
-	.area-segundo-quadro span button {
-		/* transform: translateY(96px) !important; */
-		transform: translateY(57px) !important;
-	}
-}
+
 
 
 @media only screen 
@@ -442,7 +437,7 @@ and (min-width : 375px)
 and (max-width : 812px) 
 and (orientation : landscape) { 
 	.area-segundo-quadro span button {
-		transform: translateY(3.3em) !important;
+		transform: translateY(85px) !important;
 	}
 }
 
@@ -455,8 +450,22 @@ and (orientation : landscape) {
 	}
 } */
 
-@media only screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 3){
+@media screen and (min-width: 900px) and (max-width: 991px) and (orientation : landscape){
+	.area-segundo-quadro span button {
+		/* transform: translateY(96px) !important; */
+		transform: translateY(57px) !important;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) and (orientation : landscape){
+	.area-segundo-quadro span button {
+		/* transform: translateY(96px) !important; */
+		transform: translateY(96px);
+	}
+}
+
+/* @media screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 3){
 	.area-segundo-quadro span button {
 		transform: translateY(17.3vh) !important;
 	}
-}
+} */

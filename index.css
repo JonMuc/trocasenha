@@ -304,56 +304,8 @@ body{
 	}
    } */
 
-@media screen and (min-width: 992px) and (max-width: 1047px){
-	.area-segundo-quadro span button {
-		transform: translateY(88px);
-	}
-}
 
-@media screen and (max-width: 1063px) and (min-width: 1047px){
-	.area-segundo-quadro span button {
-		transform: translateY(125px);
-	}
-}
-
-@media screen and (max-width: 1085px) and (min-width: 1064px) {
-	.area-segundo-quadro span button {
-		transform: translateY(94px);
-	}
-}
-
-@media screen and (max-width: 1310px) and (min-width: 1257px) {
-	.area-segundo-quadro span button {
-		transform: translateY(94px);
-	}
-}
-
-@media screen and (max-width: 1822px) and (min-width: 1728px) {
-	.area-segundo-quadro span button {
-		transform: translateY(94px);
-	}
-}
-
-@media screen and (min-width: 825px) and (max-width: 951px){
-	.area-segundo-quadro span button {
-		transform: translateY(57px);
-	}
-}
-
-@media only screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape){
-	.area-segundo-quadro span button {
-		transform: translateY(3.3em) !important;
-	}
-}
-
-@media only screen and (max-width: 1080px) and (orientation : landscape) {
-	.area-segundo-quadro span button {
-		transform: translateY(96px);
-		/* important modificado */
-	}
-}
-
-@media only screen and (max-width: 1080px) and (orientation : landscape) {
+   @media only screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
 		max-width: 44.333333%;
 	}
@@ -384,10 +336,10 @@ body{
 		font-size: 1.5em;
 	}
 
-	/* .area-segundo-quadro span button {
+	.area-segundo-quadro span button {
 		transform: translateY(96px);
 		/* important modificado */
-	} */
+	}
 
 	.area-segundo-quadro span {
 		font-size: 1.5em;
@@ -442,5 +394,48 @@ body{
 		margin-left: -2%;
 		position: absolute;
 		display: unset;
+	}
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1047px){
+	.area-segundo-quadro span button {
+		transform: translateY(88px);
+	}
+}
+
+@media screen and (max-width: 1063px) and (min-width: 1047px){
+	.area-segundo-quadro span button {
+		transform: translateY(125px);
+	}
+}
+
+@media screen and (max-width: 1085px) and (min-width: 1064px) {
+	.area-segundo-quadro span button {
+		transform: translateY(94px);
+	}
+}
+
+@media screen and (max-width: 1310px) and (min-width: 1257px) {
+	.area-segundo-quadro span button {
+		transform: translateY(94px);
+	}
+}
+
+@media screen and (max-width: 1822px) and (min-width: 1728px) {
+	.area-segundo-quadro span button {
+		transform: translateY(94px);
+	}
+}
+
+@media screen and (min-width: 825px) and (max-width: 951px){
+	.area-segundo-quadro span button {
+		transform: translateY(57px);
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 3){
+	.area-segundo-quadro span button {
+		transform: translateY(3.3em);
 	}
 }

@@ -338,7 +338,8 @@ body{
 	}
 
 	.area-segundo-quadro span button {
-		transform: translateY(96px);
+		transform: translateY(60px);
+		/* transform: translateY(96px); */
 		/* important modificado */
 	}
 
@@ -429,10 +430,10 @@ body{
 	}
 }
 
-@media screen and (min-width: 825px) and (max-width: 951px){
+@media screen and (min-width: 735px) and (max-width: 951px) {
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(88px) !important;
+		transform: translateY(57px) !important;
 	}
 }
 

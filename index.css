@@ -167,12 +167,7 @@ body{
 	color: #ed1c24;
 }
 
-@media screen and (max-width: 991px) and (orientation : landscape){
 
-	.area-segundo-quadro span button {
-		transform: translateY(20px);
-	}
-}
 
 @media screen and (max-width: 991px){
 	.area-quadro span img{
@@ -437,3 +432,8 @@ body{
 	}
 }
 
+@media screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape){
+	.area-segundo-quadro span button {
+		transform: translateY(3.2em);
+	}
+}

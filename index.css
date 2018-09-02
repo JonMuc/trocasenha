@@ -346,6 +346,12 @@ body{
 	}
 }
 
+@media only screen and (max-width: 1080px) and (orientation : landscape) {
+	.area-segundo-quadro span button {
+		transform: translateY(96px);
+		/* important modificado */
+	}
+}
 
 @media only screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
@@ -378,10 +384,10 @@ body{
 		font-size: 1.5em;
 	}
 
-	.area-segundo-quadro span button {
+	/* .area-segundo-quadro span button {
 		transform: translateY(96px);
 		/* important modificado */
-	}
+	} */
 
 	.area-segundo-quadro span {
 		font-size: 1.5em;

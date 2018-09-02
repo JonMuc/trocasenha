@@ -342,7 +342,7 @@ body{
 
 @media only screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape){
 	.area-segundo-quadro span button {
-		transform: translateY(3.3em);
+		transform: translateY(3.3em) !important;
 	}
 }
 

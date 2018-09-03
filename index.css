@@ -131,7 +131,7 @@ body{
 }
 
 .area-segundo-quadro span:nth-of-type(2n){
-	margin-top: 13%;
+	margin-top: 9%;
 }
 
 
@@ -267,7 +267,7 @@ body{
 	}
 
 	.area-segundo-quadro span:nth-of-type(2n) {
-		margin-top: 7.5%;
+		margin-top: 3.5%%;
 	}
 
 	.msg-duvida span{
@@ -386,7 +386,7 @@ body{
 	}
 
 	.msg-duvida {
-		margin-top: 2%;
+		margin-top: 3%;
 	}
 
 	.background-quadros-color {
@@ -442,7 +442,7 @@ and (min-width : 375px)
 and (max-width : 812px) 
 and (orientation : landscape) { 
 	.area-segundo-quadro span button {
-		transform: translateY(52px) !important;
+		transform: translateY(-2px) !important;
 	}
 }
 

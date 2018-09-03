@@ -461,20 +461,39 @@ and (orientation : landscape) {
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(31px);
+		transform: translateY(40px);
 	}
 
 	.area-quadro span button {
-    transform: translateY(2px);
+    transform: translateY(9px);
 	}
 
 	.area-segundo-quadro span:nth-of-type(2n) {
-		margin-top: 5.5%;
+		margin-top: 8.5%;
 	}
 
 	/* .area-segundo-quadro span {
 		font-size: 1.6em;
 	} */
+}
+
+
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px)
+and (orientation : landscape) {
+	.area-segundo-quadro span button {
+		/* transform: translateY(96px) !important; */
+		transform: translateY(31px) !important;
+	}
+
+	.area-quadro span button {
+    transform: translateY(2px) !important;
+	}
+
+	.area-segundo-quadro span:nth-of-type(2n) {
+		margin-top: 6.5% !important;
+	}
 }
 
 /* @media screen and (min-width: 800px) and (max-width: 919px) and (min-height: 376px) and (orientation : landscape){

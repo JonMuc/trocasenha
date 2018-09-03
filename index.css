@@ -453,15 +453,15 @@ and (orientation : landscape) {
 	.area-segundo-quadro span button {
 		transform: translateY(76px);
 	}
-	.area-segundo-quadro span {
+	/* .area-segundo-quadro span {
 		font-size: 1.6em;
-	}
+	} */
 }
 
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(41px);
+		transform: translateY(54px);
 	}
 
 	.area-quadro span button {

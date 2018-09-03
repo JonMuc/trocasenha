@@ -479,7 +479,7 @@ and (orientation : landscape) {
 
 @media screen and (max-width: 650px) and (min-width: 360px) and (orientation : landscape){
 	.area-segundo-quadro span {
-		font-size: 0.3em;
+		font-size: 0.3em !important;
 	}
 }
 

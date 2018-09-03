@@ -87,7 +87,7 @@ text{
 }
 
 .area-quadro span button{
-	transform: translateY(-23px);
+	transform: translateY(19px);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
 	width: 25vw;
@@ -305,6 +305,10 @@ body{
 	.area-quadro{
 		max-width: 44.333333%;
 		max-height: 73%;
+	}
+
+	.area-quadro span button{
+		transform: translateY(-17px);
 	}
 
 	.area-segundo-quadro{

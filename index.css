@@ -118,7 +118,7 @@ text{
 
 .area-segundo-quadro span button{
 	/* modificado */
-	transform: translateY(4em);
+	transform: translateY(5.5em);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
 	width: 25vw;
@@ -267,7 +267,7 @@ body{
 	}
 
 	.area-segundo-quadro span:nth-of-type(2n) {
-		margin-top: 3.5%%;
+		margin-top: 3.5%;
 	}
 
 	.msg-duvida span{

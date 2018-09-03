@@ -303,11 +303,11 @@ body{
 
    @media only screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
-		max-width: 44.333333%;
+		max-width: 40.333333%;
 	}
 
 	.area-segundo-quadro{
-		max-width: 44.333333%;
+		max-width: 40.333333%;
 		max-height: 100%;
 		margin-top: 10%;
 	}
@@ -347,7 +347,7 @@ body{
 
 	.logo img {
 		margin-left: 6%;
-		height: 6em;
+		height: 5em;
 	}
 
 	.msg-duvida span {
@@ -372,10 +372,11 @@ body{
 	.trocar-senha span p {
 		margin-left: 3%;
 		margin-top: 0;
+		font-size: 1.3em;
 	}
 
 	.background-quadros {
-		margin-top: -5%;
+		margin-top: -7%;
 		margin-left: 0%;
 	}
 

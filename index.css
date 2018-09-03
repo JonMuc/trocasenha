@@ -477,7 +477,7 @@ and (orientation : landscape) {
 	} */
 }
 
-@media screen and (max-width: 650px) and (min-width: 360px) and (orientation : landscape){
+@media screen and (max-width: 650px) and (orientation : landscape){
 	.area-quadro span:nth-of-type(4n) {
 		font-size: 0.5em !important;
 	}

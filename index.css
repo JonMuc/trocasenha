@@ -303,11 +303,11 @@ body{
 
    @media only screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
-		max-width: 41.333333%;
+		max-width: 42.333333%;
 	}
 
 	.area-segundo-quadro{
-		max-width: 41.333333%;
+		max-width: 42.333333%;
 		max-height: 100%;
 		margin-top: 10%;
 	}

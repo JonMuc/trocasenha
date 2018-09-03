@@ -461,12 +461,20 @@ and (orientation : landscape) {
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(54px);
+		transform: translateY(31px);
 	}
 
 	.area-quadro span button {
-    transform: translateY(6px);
-}
+    transform: translateY(2px);
+	}
+
+	.area-segundo-quadro span:nth-of-type(2n) {
+		margin-top: 5.5%;
+	}
+
+	.area-segundo-quadro span {
+		font-size: 1.6em;
+	}
 }
 
 /* @media screen and (min-width: 800px) and (max-width: 919px) and (min-height: 376px) and (orientation : landscape){

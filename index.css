@@ -477,11 +477,11 @@ and (orientation : landscape) {
 	} */
 }
 
-@media screen and (max-width: 650px) and (min-width: 360px) and (orientation : landscape){
-	.area-segundo-quadro span {
-		font-size: 0.3em !important;
+/* @media screen and (max-width: 650px) and (min-width: 360px) and (orientation : landscape){
+	.area-quadro span:nth-of-type(4n) {
+		font-size: 0.5em;
 	}
-}
+} */
 
 @media only screen
 and (min-width : 375px)

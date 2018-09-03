@@ -87,7 +87,7 @@ text{
 }
 
 .area-quadro span button{
-	transform: translateY(19px);
+	transform: translateY(-23px);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
 	width: 25vw;
@@ -303,12 +303,13 @@ body{
 
    @media only screen and (max-width: 1080px) and (orientation : landscape) {
 	.area-quadro{
-		max-width: 42.333333%;
+		max-width: 44.333333%;
+		max-height: 73%;
 	}
 
 	.area-segundo-quadro{
-		max-width: 42.333333%;
-		max-height: 100%;
+		max-width: 44.333333%;
+		max-height: 73%;
 		margin-top: 10%;
 	}
 
@@ -333,7 +334,7 @@ body{
 	}
 
 	.area-segundo-quadro span button {
-		transform: translateY(57px);
+		transform: translateY(13px);
 		/* important modificado colocar 57 */
 	}
 
@@ -386,8 +387,8 @@ body{
 
 	.background-quadros-color {
 		background-color: #f2f2f2;
-		padding: 9em 0 10em 0;
-		margin-top: 8.5em;
+		padding: 9em 0 9em 0;
+		margin-top: 6.5em;
 		margin-left: -2%;
 		position: absolute;
 		display: unset;

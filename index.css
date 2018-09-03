@@ -458,7 +458,7 @@ and (orientation : landscape) {
 	} */
 }
 
-@media screen and (min-width: 750px) and (max-width: 991px) and (orientation : landscape){
+@media screen and (min-width: 800px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
 		transform: translateY(42px);
@@ -477,7 +477,7 @@ and (orientation : landscape) {
 	} */
 }
 
-@media screen and (max-width: 749px) and (orientation : landscape){
+@media screen and (max-width: 799px) and (orientation : landscape){
 	.area-quadro span:nth-of-type(4n) {
 		font-size: 0.5em !important;
 	}

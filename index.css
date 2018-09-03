@@ -338,7 +338,11 @@ body{
 	}
 
 	.area-segundo-quadro span button {
+<<<<<<< HEAD
 		transform: translateY(11px);
+=======
+		transform: translateY(13px);
+>>>>>>> parent of 5671b32... 157
 		/* important modificado colocar 57 */
 	}
 

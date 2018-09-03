@@ -264,7 +264,7 @@ body{
 	}
 
 	.area-segundo-quadro span:nth-of-type(2n) {
-		margin-top: 7.5%;
+		margin-top: 3.5%;
 	}
 
 	.msg-duvida span{
@@ -461,12 +461,12 @@ and (orientation : landscape) {
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(38px);
+		transform: translateY(41px);
 	}
 
 	.area-quadro span button {
-		transform: translateY(6px);
-	}
+    transform: translateY(6px);
+}
 }
 
 /* @media screen and (min-width: 800px) and (max-width: 919px) and (min-height: 376px) and (orientation : landscape){

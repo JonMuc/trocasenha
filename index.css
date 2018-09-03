@@ -462,7 +462,7 @@ and (orientation : landscape) {
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(0.5em);
+		transform: translateY(-0.3em);
 	}
 }
 

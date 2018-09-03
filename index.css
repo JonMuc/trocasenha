@@ -167,8 +167,6 @@ body{
 	color: #ed1c24;
 }
 
-
-
 @media screen and (max-width: 991px){
 	.area-quadro span img{
 		height: 4em;
@@ -185,7 +183,6 @@ body{
 	.msg-duvida span:first-of-type{
 		text-align: -webkit-center;
 	}
-
 
 	.msg-duvida{
 		margin-left: 0 !important;
@@ -277,7 +274,6 @@ body{
 	.msg-duvida span img{
 		margin-right: 1%;
 	}
-
 }
 
 
@@ -308,7 +304,7 @@ body{
 	}
 
 	.area-quadro span button{
-		transform: translateY(-17px);
+		transform: translateY(-23px);
 	}
 
 	.area-segundo-quadro{
@@ -433,7 +429,7 @@ body{
 
 @media screen and (max-width: 1822px) and (min-width: 1728px) {
 	.area-segundo-quadro span button {
-		transform: translateY(94px) !important;
+		transform: translateY(118px) !important;
 	}
 }
 
@@ -455,14 +451,17 @@ and (orientation : landscape) {
 
 @media only screen and (min-width: 700px) and (max-height: 500px)  and (orientation: landscape){
 	.area-segundo-quadro span button {
-		transform: translateY(59px);
+		transform: translateY(76px);
+	}
+	.area-segundo-quadro span {
+		font-size: 1.6em;
 	}
 }
 
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
 		/* transform: translateY(96px) !important; */
-		transform: translateY(3.3em);
+		transform: translateY(11px);
 	}
 }
 

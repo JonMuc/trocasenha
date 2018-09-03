@@ -469,7 +469,7 @@ and (orientation : landscape) {
 	}
 
 	.area-quadro span button {
-    transform: translateY(9px);
+    transform: translateY(6px);
 	}
 
 	.area-segundo-quadro span:nth-of-type(2n) {

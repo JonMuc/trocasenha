@@ -7,7 +7,6 @@
 .container-fluid{
 	padding-right: 0;
     padding-left: 0;
-
 }
 
 .background-quadros-color{
@@ -373,13 +372,22 @@ body{
 	}
 }
 
+	@supports (-ms-ime-align:auto) {
+		.header {
+			height: 15% !important;
+		}
+		.msg-duvida span:first-of-type {
+			text-align: center;
+		}
+		
+	}
+
 @media screen and (min-width: 505px) and (max-width: 734px){
 	.area-segundo-quadro span button {
 		transform: translateY(96px) !important;
 		/* transform: translateY(54px) !important; */
 	}
 }
-
 
 @media screen and (min-width: 992px) and (max-width: 1047px){
 	.area-segundo-quadro span button {
@@ -420,7 +428,6 @@ and (orientation : landscape) {
 	}
 }
 
-
 @media only screen and (max-width: 736px) and (max-height: 414px) and (orientation: landscape){
 	.area-segundo-quadro span button {
 		transform: translateY(87px);
@@ -453,10 +460,6 @@ and (orientation : landscape) {
 	.area-segundo-quadro span:nth-of-type(2n) {
 		margin-top: 8.5%;
 	}
-
-	/* .area-segundo-quadro span {
-		font-size: 1.6em;
-	} */
 }
 
 @media only screen
@@ -464,7 +467,6 @@ and (min-width : 375px)
 and (max-width : 667px)
 and (orientation : landscape) {
 	.area-segundo-quadro span button {
-		/* transform: translateY(96px) !important; */
 		transform: translateY(31px) !important;
 	}
 
@@ -476,16 +478,3 @@ and (orientation : landscape) {
 		margin-top: 6.5% !important;
 	}
 }
-
-/* @media screen and (min-width: 800px) and (max-width: 919px) and (min-height: 376px) and (orientation : landscape){
-	.area-segundo-quadro span button {
-		 /* transform: translateY(96px) !important;  
-		transform: translateY(3.3em);
-	}
-} 
-*/
-/* @media screen and (max-width: 991px) and (min-width: 952px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 3){
-	.area-segundo-quadro span button {
-		transform: translateY(17.3vh) !important;
-	}
-} */

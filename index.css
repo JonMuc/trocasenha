@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+.modal-content {
+    float: unset !important;
+}
+
 .container-fluid{
 	padding-right: 0;
     padding-left: 0;
@@ -46,7 +50,6 @@ text{
 }
 
 .background-quadros{
-	/* margin-left: 0%; */
 	margin-top: 4%;
 }
 
@@ -116,7 +119,6 @@ text{
 }
 
 .area-segundo-quadro span button{
-	/* modificado */
 	transform: translateY(5.5em);
 	background-image: linear-gradient(-90deg, #DF0101, #F78181);
 	border-radius: 5em;
@@ -312,7 +314,6 @@ body{
 
 	.area-segundo-quadro span button {
 		transform: translateY(33px);
-		/* important modificado colocar 57 */
 	}
 
 	.area-segundo-quadro span {
@@ -385,7 +386,6 @@ body{
 @media screen and (min-width: 505px) and (max-width: 734px){
 	.area-segundo-quadro span button {
 		transform: translateY(96px) !important;
-		/* transform: translateY(54px) !important; */
 	}
 }
 
@@ -438,14 +438,10 @@ and (orientation : landscape) {
 	.area-segundo-quadro span button {
 		transform: translateY(76px);
 	}
-	/* .area-segundo-quadro span {
-		font-size: 1.6em;
-	} */
 }
 
 @media screen and (min-width: 650px) and (max-width: 991px) and (orientation : landscape){
 	.area-segundo-quadro span button {
-		/* transform: translateY(96px) !important; */
 		transform: translateY(45px);
 	}
 
